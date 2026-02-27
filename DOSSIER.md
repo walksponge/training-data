@@ -2,8 +2,8 @@
 
 **Dossier Version:** v1.1.1  
 **Protocol Compatibility:** Section 11 v11.6+  
-**Date:** [YYYY-MM-DD]  
-**Primary Source Systems:** Intervals.icu | [Other platforms]
+**Date:** [2026-02-27]  
+**Primary Source Systems:** Intervals.icu
 
 This document serves as a reference template for endurance athletes using the deterministic AI-coaching framework defined in Section 11.
 
@@ -86,20 +86,20 @@ This document serves as a reference template for endurance athletes using the de
 
 ### Weekly Volume Target
 
-**Baseline:** [X] hours/week (± [Y] hours)  
-**Peak phases:** Up to [Z] hours (requires RI ≥ 0.8, HRV within 10%)
+**Baseline:** 7 hours/week (± 2 hours)  
+**Peak phases:** Up to 10 hours (requires RI ≥ 0.8, HRV within 10%)
 
 ### Normal Weekly Schedule
 
 | Day | Primary Session | Duration | Secondary |
 |-----|-----------------|----------|-----------|
-| Sunday | [Workout type] | [Duration] | [Optional] |
-| Monday | [Workout type] | [Duration] | [Optional] |
-| Tuesday | [Workout type] | [Duration] | [Optional] |
-| Wednesday | [Workout type] | [Duration] | [Optional] |
-| Thursday | [Workout type] | [Duration] | [Optional] |
-| Friday | [Workout type] | [Duration] | [Optional] |
-| Saturday | [Workout type] | [Duration] | [Optional] |
+| Sunday | running | [Duration] | cycling |
+| Monday | Running | [Duration] | [Optional] |
+| Tuesday | swimming | [Duration] | cycling |
+| Wednesday | running | [Duration] | [Optional] |
+| Thursday | cycling | [Duration] | swimming |
+| Friday | running | [Duration] | [Optional] |
+| Saturday |cycling | [Duration] | running |
 
 ### Session Details
 
@@ -153,16 +153,16 @@ This document serves as a reference template for endurance athletes using the de
 | Z7 | 151%+ | [Calculate] | Neuromuscular |
 | SS | 84–97% | [Calculate] | Sweetspot |
 
-**Current FTP:** [W] (Indoor: [W])  
-**Max HR:** [bpm]  
-**Threshold HR:** [bpm]
+**Current FTP:** [275] (Indoor: 240)  
+**Max HR:** 185  
+**Threshold HR:** 168
 
 ### Current Fitness Markers
 
 | Metric | Value | Notes |
 |--------|-------|-------|
 | FTP (Outdoor) | [W] | |
-| FTP (Indoor) | [W] | Adjusted for indoor conditions |
+| FTP (Indoor) | 240 | Adjusted for indoor conditions |
 | LT2 Power (MLSS) | [W] | ≈[%] of FTP |
 | LT2 HR | [bpm] | |
 | LT1 (AeT) | [W] | HR ≈[bpm] |
