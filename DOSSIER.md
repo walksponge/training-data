@@ -166,8 +166,8 @@ This document serves as a reference template for endurance athletes using the de
 | LT2 Power (MLSS) | [W] | ≈[%] of FTP |
 | LT2 HR | [bpm] | |
 | LT1 (AeT) | [W] | HR ≈[bpm] |
-| VO₂max Interval Power | [W] | |
-| Sweetspot Target | [W] | |
+| VO₂max Interval Power | 240  |
+| Sweetspot Target | 220  |
 | Weekly Volume | [hours] | [TSS range] |
 
 ### Weight Tracking
