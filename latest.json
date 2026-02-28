@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 1.09,
-      "total_activities": 11,
+      "total_activities": 12,
       "total_tss": 25
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-28T15:58:10.727950",
+    "last_updated": "2026-02-28T16:53:21.201204",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -39,11 +39,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 1.09,
-    "total_activities": 11,
+    "total_activities": 12,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 9,
+        "count": 10,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -57,10 +57,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 48.32,
-      "atl": 51.4,
-      "tsb": -3.08,
-      "ramp_rate": 1.02,
+      "ctl": 49.75,
+      "atl": 59.52,
+      "tsb": -9.77,
+      "ramp_rate": 2.45,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -214,12 +214,12 @@
     "p_max": 1180,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-02-28T15:58:10.727353",
+    "calculation_timestamp": "2026-02-28T16:53:21.200591",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 11,
-      "activities_28d": 51,
+      "activities_7d": 12,
+      "activities_28d": 52,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -230,6 +230,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-02-28T16:13:52",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-02-27T12:14:39",
       "type": "VirtualRide",
       "name": "MyWhoosh - Pacing #1",
@@ -280,7 +312,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-02-27T07:36:28",
       "type": "Unknown",
       "name": "",
@@ -312,7 +344,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-02-26T20:33:59",
       "type": "VirtualRide",
       "name": "MyWhoosh - Active Recovery",
@@ -354,7 +386,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-02-26T12:23:44",
       "type": "Unknown",
       "name": "",
@@ -386,7 +418,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-02-25T13:09:40",
       "type": "Unknown",
       "name": "",
@@ -418,7 +450,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-02-25T12:32:26",
       "type": "Unknown",
       "name": "",
@@ -450,7 +482,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-02-25T12:07:47",
       "type": "Unknown",
       "name": "",
@@ -482,7 +514,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-02-24T12:09:34",
       "type": "Unknown",
       "name": "",
@@ -514,7 +546,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-02-23T08:18:34",
       "type": "Unknown",
       "name": "",
@@ -546,7 +578,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-02-22T18:24:19",
       "type": "Unknown",
       "name": "",
@@ -578,7 +610,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_11",
+      "id": "activity_12",
       "date": "2026-02-22T07:08:19",
       "type": "Unknown",
       "name": "",
@@ -731,7 +763,7 @@
   "weekly_summary": {
     "total_training_hours": 1.09,
     "total_tss": 25,
-    "activities_count": 11,
+    "activities_count": 12,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
