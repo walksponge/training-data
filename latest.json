@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 0.98,
-      "total_activities": 9,
+      "total_activities": 10,
       "total_tss": 24
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-08T05:02:40.308678",
+    "last_updated": "2026-03-08T07:09:17.918321",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -35,6 +35,15 @@
       "context": "Race week D-0 of 'Semi de Paris'. Today: Race day, 0-0 TSS. Race effort",
       "persistence_days": null,
       "tier": 1
+    },
+    {
+      "metric": "race_week_tsb",
+      "value": 4.6,
+      "severity": "warning",
+      "threshold": "TSB target 5-15",
+      "context": "Projected race-day TSB 4.6 is below target range 5-15. Consider additional rest to reach target.",
+      "persistence_days": null,
+      "tier": 1
     }
   ],
   "history": {
@@ -48,11 +57,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.98,
-    "total_activities": 9,
+    "total_activities": 10,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 5,
+        "count": 6,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -66,11 +75,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 48.05,
-      "atl": 39.13,
-      "tsb": 8.92,
-      "ramp_rate": -1.4,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 48.97,
+      "atl": 44.33,
+      "tsb": 4.64,
+      "ramp_rate": -1.12,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 290,
@@ -200,7 +209,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 8.92 positive",
+      "TSB 4.64 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Late Base / Build",
@@ -224,12 +233,12 @@
     "p_max": 1176,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-08T05:02:40.307779",
+    "calculation_timestamp": "2026-03-08T07:09:17.917630",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 1,
-      "activities_7d": 9,
-      "activities_28d": 50,
+      "activities_7d": 10,
+      "activities_28d": 51,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
@@ -240,6 +249,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-03-08T07:12:02",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-03-06T12:23:34",
       "type": "VirtualRide",
       "name": "MyWhoosh - 4min Best effort!",
@@ -290,7 +331,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-03-06T12:03:22",
       "type": "VirtualRide",
       "name": "MyWhoosh - Active Recovery",
@@ -341,7 +382,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-03-05T20:12:39",
       "type": "Unknown",
       "name": "",
@@ -373,7 +414,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-03-05T14:16:41",
       "type": "VirtualRide",
       "name": "MyWhoosh - calibration ",
@@ -415,7 +456,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-03-04T11:50:55",
       "type": "Unknown",
       "name": "",
@@ -447,7 +488,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-03-03T20:24:43",
       "type": "VirtualRide",
       "name": "MyWhoosh - custom zone 2",
@@ -489,7 +530,7 @@
       }
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-03-03T12:12:05",
       "type": "Unknown",
       "name": "",
@@ -521,7 +562,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-03-02T11:47:23",
       "type": "Unknown",
       "name": "",
@@ -553,7 +594,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-03-02T08:30:55",
       "type": "Unknown",
       "name": "",
@@ -706,7 +747,7 @@
   "weekly_summary": {
     "total_training_hours": 0.98,
     "total_tss": 24,
-    "activities_count": 9,
+    "activities_count": 10,
     "avg_hrv": null,
     "avg_resting_hr": 45.0
   },
@@ -744,18 +785,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 0,
       "current_day": "D-0",
-      "ctl_baseline": 48.0,
-      "normal_weekly_tss": 336.3,
+      "ctl_baseline": 49.0,
+      "normal_weekly_tss": 342.8,
       "race_week_tss_budget": {
-        "min": 168,
-        "max": 219
+        "min": 171,
+        "max": 223
       },
       "race_week_tss_spent": 24,
       "race_week_tss_remaining": {
-        "min": 144,
-        "max": 195
+        "min": 147,
+        "max": 199
       },
-      "projected_race_day_tsb": 8.9,
+      "projected_race_day_tsb": 4.6,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -782,8 +823,10 @@
         "intensity": "standard"
       },
       "go_no_go": {
-        "tsb_status": "green",
-        "notes": []
+        "tsb_status": "flag",
+        "notes": [
+          "Projected race-day TSB 4.6 is below target range 5-15. Consider additional rest."
+        ]
       }
     }
   }
