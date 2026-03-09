@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 0.98,
-      "total_activities": 12,
+      "total_activities": 10,
       "total_tss": 24
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-08T23:49:05.157327",
+    "last_updated": "2026-03-09T05:13:09.299668",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -26,24 +26,6 @@
       "context": "ACWR 1.96 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
-    },
-    {
-      "metric": "race_week",
-      "value": 0,
-      "severity": "info",
-      "threshold": "RACE_B within 7 days",
-      "context": "Race week D-0 of 'Semi de Paris'. Today: Race day, 0-0 TSS. Race effort",
-      "persistence_days": null,
-      "tier": 1
-    },
-    {
-      "metric": "race_week_tsb",
-      "value": -16.6,
-      "severity": "warning",
-      "threshold": "TSB target 5-15",
-      "context": "Projected race-day TSB -16.6 is below target range 5-15. Consider additional rest to reach target.",
-      "persistence_days": null,
-      "tier": 1
     }
   ],
   "history": {
@@ -57,11 +39,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.98,
-    "total_activities": 12,
+    "total_activities": 10,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 8,
+        "count": 6,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -75,10 +57,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 53.54,
-      "atl": 70.15,
-      "tsb": -16.61,
-      "ramp_rate": 3.44,
+      "ctl": 52.28,
+      "atl": 60.81,
+      "tsb": -8.53,
+      "ramp_rate": 0.68,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -103,7 +85,7 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 45,
+    "rhr_baseline_7d": null,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 45,
     "latest_hrv": null,
@@ -232,12 +214,12 @@
     "p_max": 1177,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-08T23:49:05.156586",
+    "calculation_timestamp": "2026-03-09T05:13:09.299079",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 1,
-      "activities_7d": 12,
-      "activities_28d": 53,
+      "rhr_data_points": 0,
+      "activities_7d": 10,
+      "activities_28d": 52,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
@@ -623,88 +605,9 @@
       "feel": null,
       "rpe": null,
       "zone_distribution": null
-    },
-    {
-      "id": "activity_11",
-      "date": "2026-03-02T11:47:23",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null
-    },
-    {
-      "id": "activity_12",
-      "date": "2026-03-02T08:30:55",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-03-02",
-      "weight_kg": null,
-      "resting_hr": 45,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-03-03",
       "weight_kg": null,
@@ -794,103 +697,39 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
-    }
-  ],
-  "planned_workouts": [
+    },
     {
-      "id": "event_1",
-      "date": "2026-03-08T00:00:00",
-      "name": "Planned Workout",
-      "type": "RACE_B",
-      "description": "",
-      "planned_tss": null,
-      "duration_hours": 0.0
+      "date": "2026-03-09",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
+  "planned_workouts": [],
   "weekly_summary": {
     "total_training_hours": 0.98,
     "total_tss": 24,
-    "activities_count": 12,
+    "activities_count": 10,
     "avg_hrv": null,
-    "avg_resting_hr": 45.0
+    "avg_resting_hr": null
   },
   "race_calendar": {
-    "next_race": {
-      "name": "Semi de Paris",
-      "date": "2026-03-08",
-      "category": "RACE_B",
-      "type": "Run",
-      "days_until": 0,
-      "moving_time_seconds": null,
-      "distance_meters": null
-    },
-    "all_races": [
-      {
-        "name": "Semi de Paris",
-        "date": "2026-03-08",
-        "category": "RACE_B",
-        "type": "Run",
-        "days_until": 0,
-        "moving_time_seconds": null,
-        "distance_meters": null
-      }
-    ],
+    "next_race": null,
+    "all_races": [],
     "taper_alert": {
       "active": false
     },
     "race_week": {
-      "active": true,
-      "event_name": "Semi de Paris",
-      "event_date": "2026-03-08",
-      "event_category": "RACE_B",
-      "event_type": "Run",
-      "event_duration_class": "medium",
-      "event_moving_time_seconds": null,
-      "days_until_event": 0,
-      "current_day": "D-0",
-      "ctl_baseline": 53.5,
-      "normal_weekly_tss": 374.8,
-      "race_week_tss_budget": {
-        "min": 187,
-        "max": 244
-      },
-      "race_week_tss_spent": 24,
-      "race_week_tss_remaining": {
-        "min": 163,
-        "max": 220
-      },
-      "projected_race_day_tsb": -16.6,
-      "tsb_target_range": {
-        "min": 5,
-        "max": 15
-      },
-      "today": {
-        "label": "Race day",
-        "load_target_tss": {
-          "min": 0,
-          "max": 0
-        },
-        "zones": "Race effort",
-        "purpose": "Go/no-go assessment. Execute race plan."
-      },
-      "carb_loading": {
-        "applicable": false,
-        "active": false,
-        "starts": "D-4",
-        "start_date": "2026-03-04",
-        "note": null
-      },
-      "opener": {
-        "day": "D-2",
-        "date": "2026-03-06",
-        "intensity": "standard"
-      },
-      "go_no_go": {
-        "tsb_status": "flag",
-        "notes": [
-          "Projected race-day TSB -16.6 is significantly below target range 5-15. Fatigue may impact performance."
-        ]
-      }
+      "active": false
     }
   }
 }
