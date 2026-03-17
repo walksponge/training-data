@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-16T23:58:37.979815",
+    "last_updated": "2026-03-17T05:14:51.067746",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -51,10 +51,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 52.43,
-      "atl": 61.79,
-      "tsb": -9.36,
-      "ramp_rate": 0.16,
+      "ctl": 51.2,
+      "atl": 53.56,
+      "tsb": -2.36,
+      "ramp_rate": 0.15,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -188,12 +188,12 @@
     "p_max": 1170,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-16T23:58:37.979221",
+    "calculation_timestamp": "2026-03-17T05:14:51.067126",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 6,
-      "activities_28d": 44,
+      "activities_28d": 43,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -397,21 +397,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-03-10",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-03-11",
       "weight_kg": null,
       "resting_hr": null,
@@ -488,6 +473,21 @@
     },
     {
       "date": "2026-03-16",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-17",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
