@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 0.98,
-      "total_activities": 7,
+      "total_activities": 6,
       "total_tss": 19
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-31T23:58:14.040999",
+    "last_updated": "2026-04-01T03:35:08.594197",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -31,7 +31,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-29",
-    "age_days": 2,
+    "age_days": 3,
     "total_months": 14,
     "history_confidence": "high"
   },
@@ -39,11 +39,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.98,
-    "total_activities": 7,
+    "total_activities": 6,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 5,
+        "count": 4,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -57,10 +57,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 54.4,
-      "atl": 63.18,
-      "tsb": -8.78,
-      "ramp_rate": 0.69,
+      "ctl": 53.12,
+      "atl": 54.77,
+      "tsb": -1.65,
+      "ramp_rate": 0.67,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -214,12 +214,12 @@
     "p_max": 1165,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-31T23:58:14.040410",
+    "calculation_timestamp": "2026-04-01T03:35:08.593579",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 7,
-      "activities_28d": 29,
+      "activities_7d": 6,
+      "activities_28d": 28,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -439,56 +439,9 @@
       "feel": null,
       "rpe": null,
       "zone_distribution": null
-    },
-    {
-      "id": "activity_7",
-      "date": "2026-03-25T08:41:00",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-03-25",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-03-26",
       "weight_kg": null,
@@ -578,13 +531,28 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-04-01",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [],
   "weekly_summary": {
     "total_training_hours": 0.98,
     "total_tss": 19,
-    "activities_count": 7,
+    "activities_count": 6,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
