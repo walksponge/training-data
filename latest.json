@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 0.95,
-      "total_activities": 15,
+      "total_activities": 16,
       "total_tss": 66
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-13T10:04:51.542544",
+    "last_updated": "2026-05-13T12:24:27.355700",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -39,11 +39,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.95,
-    "total_activities": 15,
+    "total_activities": 16,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 13,
+        "count": 14,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -57,21 +57,21 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 50.63,
-      "atl": 52.41,
-      "tsb": -1.78,
-      "ramp_rate": -0.74,
+      "ctl": 51.79,
+      "atl": 58.93,
+      "tsb": -7.14,
+      "ramp_rate": 0.42,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 290,
       "ftp_indoor": null,
-      "eftp": 268.5,
+      "eftp": 268.7,
       "lthr": 168,
       "max_hr": 185,
-      "w_prime": 21812,
+      "w_prime": 21834,
       "w_prime_kj": 21.8,
-      "p_max": 1137,
+      "p_max": 1138,
       "vo2max": null
     },
     "current_metrics": {
@@ -209,18 +209,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 268.5,
-    "w_prime": 21812,
+    "eftp": 268.7,
+    "w_prime": 21834,
     "w_prime_kj": 21.8,
-    "p_max": 1137,
+    "p_max": 1138,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-13T10:04:51.541915",
+    "calculation_timestamp": "2026-05-13T12:24:27.355031",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 15,
-      "activities_28d": 58,
+      "activities_7d": 16,
+      "activities_28d": 59,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -231,6 +231,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-05-13T12:14:02",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-05-12T21:18:42",
       "type": "VirtualRide",
       "name": "MyWhoosh - Lactate Threshold Short",
@@ -272,7 +304,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-05-12T18:13:22",
       "type": "Unknown",
       "name": "",
@@ -304,7 +336,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-05-12T12:13:41",
       "type": "Unknown",
       "name": "",
@@ -336,7 +368,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-05-12T08:30:53",
       "type": "Unknown",
       "name": "",
@@ -368,7 +400,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-05-11T18:18:10",
       "type": "Unknown",
       "name": "",
@@ -400,7 +432,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-05-11T13:05:50",
       "type": "Unknown",
       "name": "",
@@ -432,7 +464,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-05-11T12:38:28",
       "type": "Unknown",
       "name": "",
@@ -464,7 +496,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-05-11T12:11:32",
       "type": "Unknown",
       "name": "",
@@ -496,7 +528,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-05-11T08:41:46",
       "type": "Unknown",
       "name": "",
@@ -528,7 +560,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-05-10T16:18:34",
       "type": "Unknown",
       "name": "",
@@ -560,7 +592,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_11",
+      "id": "activity_12",
       "date": "2026-05-10T15:31:37",
       "type": "Unknown",
       "name": "",
@@ -592,7 +624,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_12",
+      "id": "activity_13",
       "date": "2026-05-09T10:44:00",
       "type": "VirtualRide",
       "name": "MyWhoosh - Ramp Test - MyWhoosh",
@@ -643,7 +675,7 @@
       }
     },
     {
-      "id": "activity_13",
+      "id": "activity_14",
       "date": "2026-05-08T17:32:36",
       "type": "Unknown",
       "name": "",
@@ -675,7 +707,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_14",
+      "id": "activity_15",
       "date": "2026-05-08T14:46:37",
       "type": "Unknown",
       "name": "",
@@ -707,7 +739,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_15",
+      "id": "activity_16",
       "date": "2026-05-08T14:09:34",
       "type": "Unknown",
       "name": "",
@@ -850,7 +882,7 @@
   "weekly_summary": {
     "total_training_hours": 0.95,
     "total_tss": 66,
-    "activities_count": 15,
+    "activities_count": 16,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
