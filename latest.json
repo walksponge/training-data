@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 0.97,
-      "total_activities": 25,
+      "total_activities": 26,
       "total_tss": 43
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-19T20:14:40.903052",
+    "last_updated": "2026-06-19T21:37:07.607517",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -48,11 +48,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.97,
-    "total_activities": 25,
+    "total_activities": 26,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 23,
+        "count": 24,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -66,10 +66,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 59.79,
-      "atl": 72.34,
-      "tsb": -12.55,
-      "ramp_rate": 2.99,
+      "ctl": 60.1,
+      "atl": 74.07,
+      "tsb": -13.97,
+      "ramp_rate": 3.29,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -223,12 +223,12 @@
     "p_max": 1127,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-19T20:14:40.902309",
+    "calculation_timestamp": "2026-06-19T21:37:07.606613",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 25,
-      "activities_28d": 77,
+      "activities_7d": 26,
+      "activities_28d": 78,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -239,7 +239,7 @@
   "recent_activities": [
     {
       "id": "activity_1",
-      "date": "2026-06-18T18:55:18",
+      "date": "2026-06-19T21:25:30",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -271,7 +271,7 @@
     },
     {
       "id": "activity_2",
-      "date": "2026-06-17T21:20:49",
+      "date": "2026-06-18T18:55:18",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -303,7 +303,7 @@
     },
     {
       "id": "activity_3",
-      "date": "2026-06-17T13:09:37",
+      "date": "2026-06-17T21:20:49",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -335,7 +335,7 @@
     },
     {
       "id": "activity_4",
-      "date": "2026-06-17T12:20:55",
+      "date": "2026-06-17T13:09:37",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -367,7 +367,7 @@
     },
     {
       "id": "activity_5",
-      "date": "2026-06-17T12:00:46",
+      "date": "2026-06-17T12:20:55",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -399,7 +399,7 @@
     },
     {
       "id": "activity_6",
-      "date": "2026-06-17T09:01:07",
+      "date": "2026-06-17T12:00:46",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -431,6 +431,38 @@
     },
     {
       "id": "activity_7",
+      "date": "2026-06-17T09:01:07",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_8",
       "date": "2026-06-16T21:55:24",
       "type": "VirtualRide",
       "name": "MyWhoosh - Al Wathba-S",
@@ -481,7 +513,7 @@
       }
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-06-16T21:00:47",
       "type": "VirtualRide",
       "name": "MyWhoosh - Rolling Tempo #5",
@@ -532,7 +564,7 @@
       }
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-06-16T17:33:48",
       "type": "Unknown",
       "name": "",
@@ -564,7 +596,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-06-16T12:10:14",
       "type": "Unknown",
       "name": "",
@@ -596,7 +628,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_11",
+      "id": "activity_12",
       "date": "2026-06-16T08:43:51",
       "type": "Unknown",
       "name": "",
@@ -628,7 +660,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_12",
+      "id": "activity_13",
       "date": "2026-06-15T17:57:56",
       "type": "Unknown",
       "name": "",
@@ -660,7 +692,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_13",
+      "id": "activity_14",
       "date": "2026-06-15T12:08:57",
       "type": "Unknown",
       "name": "",
@@ -692,7 +724,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_14",
+      "id": "activity_15",
       "date": "2026-06-15T08:35:31",
       "type": "Unknown",
       "name": "",
@@ -724,7 +756,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_15",
+      "id": "activity_16",
       "date": "2026-06-14T12:22:12",
       "type": "Unknown",
       "name": "",
@@ -756,7 +788,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_16",
+      "id": "activity_17",
       "date": "2026-06-13T11:43:31",
       "type": "Unknown",
       "name": "",
@@ -788,7 +820,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_17",
+      "id": "activity_18",
       "date": "2026-06-13T10:42:35",
       "type": "Unknown",
       "name": "",
@@ -820,7 +852,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_18",
+      "id": "activity_19",
       "date": "2026-06-13T10:19:08",
       "type": "Unknown",
       "name": "",
@@ -852,7 +884,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_19",
+      "id": "activity_20",
       "date": "2026-06-13T09:58:11",
       "type": "Unknown",
       "name": "",
@@ -884,7 +916,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_20",
+      "id": "activity_21",
       "date": "2026-06-13T09:35:15",
       "type": "Unknown",
       "name": "",
@@ -916,7 +948,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_21",
+      "id": "activity_22",
       "date": "2026-06-13T09:13:40",
       "type": "Unknown",
       "name": "",
@@ -948,7 +980,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_22",
+      "id": "activity_23",
       "date": "2026-06-13T08:50:54",
       "type": "Unknown",
       "name": "",
@@ -980,7 +1012,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_23",
+      "id": "activity_24",
       "date": "2026-06-13T08:34:47",
       "type": "Unknown",
       "name": "",
@@ -1012,7 +1044,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_24",
+      "id": "activity_25",
       "date": "2026-06-13T08:12:02",
       "type": "Unknown",
       "name": "",
@@ -1044,7 +1076,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_25",
+      "id": "activity_26",
       "date": "2026-06-13T07:20:18",
       "type": "Unknown",
       "name": "",
@@ -1187,7 +1219,7 @@
   "weekly_summary": {
     "total_training_hours": 0.97,
     "total_tss": 43,
-    "activities_count": 25,
+    "activities_count": 26,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
