@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 4.98,
-      "total_activities": 20,
+      "total_activities": 21,
       "total_tss": 253
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-02T17:19:58.940864",
+    "last_updated": "2026-07-02T18:57:04.732942",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -39,11 +39,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 4.98,
-    "total_activities": 20,
+    "total_activities": 21,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 13,
+        "count": 14,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -57,10 +57,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 64.11,
-      "atl": 83.54,
-      "tsb": -19.43,
-      "ramp_rate": 3.88,
+      "ctl": 64.54,
+      "atl": 85.93,
+      "tsb": -21.39,
+      "ramp_rate": 4.3,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -214,12 +214,12 @@
     "p_max": 1120,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-02T17:19:58.940136",
+    "calculation_timestamp": "2026-07-02T18:57:04.732221",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 20,
-      "activities_28d": 82,
+      "activities_7d": 21,
+      "activities_28d": 83,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -230,6 +230,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-07-02T19:49:58",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-07-02T16:23:37",
       "type": "VirtualRide",
       "name": "MyWhoosh - Rolling Tempo Short",
@@ -271,7 +303,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-07-02T15:51:24",
       "type": "VirtualRide",
       "name": "Afternoon Virtual Ride",
@@ -313,7 +345,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-07-02T10:05:09",
       "type": "VirtualRide",
       "name": "MyWhoosh - custom zone 2",
@@ -355,7 +387,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-07-01T12:52:16",
       "type": "Unknown",
       "name": "",
@@ -387,7 +419,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-07-01T12:28:55",
       "type": "Unknown",
       "name": "",
@@ -419,7 +451,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-07-01T12:10:17",
       "type": "Unknown",
       "name": "",
@@ -451,7 +483,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-06-30T20:26:49",
       "type": "VirtualRide",
       "name": "Night Virtual Ride",
@@ -493,7 +525,7 @@
       }
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-06-30T18:08:19",
       "type": "Unknown",
       "name": "",
@@ -525,7 +557,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-06-30T12:15:39",
       "type": "Unknown",
       "name": "",
@@ -557,7 +589,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-06-30T08:50:49",
       "type": "Unknown",
       "name": "",
@@ -589,7 +621,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_11",
+      "id": "activity_12",
       "date": "2026-06-29T18:11:11",
       "type": "Unknown",
       "name": "",
@@ -621,7 +653,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_12",
+      "id": "activity_13",
       "date": "2026-06-29T12:12:28",
       "type": "Unknown",
       "name": "",
@@ -653,7 +685,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_13",
+      "id": "activity_14",
       "date": "2026-06-29T08:33:02",
       "type": "Unknown",
       "name": "",
@@ -685,7 +717,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_14",
+      "id": "activity_15",
       "date": "2026-06-28T15:31:08",
       "type": "VirtualRide",
       "name": "MyWhoosh - Rolling Tempo Short",
@@ -736,7 +768,7 @@
       }
     },
     {
-      "id": "activity_15",
+      "id": "activity_16",
       "date": "2026-06-28T07:50:04",
       "type": "Unknown",
       "name": "",
@@ -768,7 +800,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_16",
+      "id": "activity_17",
       "date": "2026-06-27T15:43:06",
       "type": "Unknown",
       "name": "",
@@ -800,7 +832,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_17",
+      "id": "activity_18",
       "date": "2026-06-27T10:03:25",
       "type": "VirtualRide",
       "name": "MyWhoosh - 30min Sub-Threshold",
@@ -851,7 +883,7 @@
       }
     },
     {
-      "id": "activity_18",
+      "id": "activity_19",
       "date": "2026-06-26T17:57:02",
       "type": "Unknown",
       "name": "",
@@ -883,7 +915,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_19",
+      "id": "activity_20",
       "date": "2026-06-26T12:24:30",
       "type": "VirtualRide",
       "name": "MyWhoosh - Low Cadence Power",
@@ -934,7 +966,7 @@
       }
     },
     {
-      "id": "activity_20",
+      "id": "activity_21",
       "date": "2026-06-26T08:18:59",
       "type": "Unknown",
       "name": "",
@@ -1077,7 +1109,7 @@
   "weekly_summary": {
     "total_training_hours": 4.98,
     "total_tss": 253,
-    "activities_count": 20,
+    "activities_count": 21,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
