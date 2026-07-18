@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 1.32,
-      "total_activities": 12,
+      "total_activities": 13,
       "total_tss": 83
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-18T08:19:44.431196",
+    "last_updated": "2026-07-18T09:56:30.427142",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -48,11 +48,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 1.32,
-    "total_activities": 12,
+    "total_activities": 13,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 8,
+        "count": 9,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -66,10 +66,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 57.52,
-      "atl": 47.94,
-      "tsb": 9.58,
-      "ramp_rate": -2.95,
+      "ctl": 57.83,
+      "atl": 49.67,
+      "tsb": 8.16,
+      "ramp_rate": -2.64,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -200,7 +200,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 9.58 positive",
+      "TSB 8.16 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Peak Race Season",
@@ -224,12 +224,12 @@
     "p_max": 1104,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-18T08:19:44.430409",
+    "calculation_timestamp": "2026-07-18T09:56:30.426597",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 12,
-      "activities_28d": 64,
+      "activities_7d": 13,
+      "activities_28d": 65,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -240,6 +240,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-07-18T11:19:07",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-07-17T19:59:04",
       "type": "VirtualRide",
       "name": "MyWhoosh - Base Miles #3",
@@ -290,7 +322,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-07-17T12:30:18",
       "type": "Unknown",
       "name": "",
@@ -322,7 +354,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-07-16T20:20:04",
       "type": "Unknown",
       "name": "",
@@ -354,7 +386,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-07-15T18:06:45",
       "type": "Unknown",
       "name": "",
@@ -386,7 +418,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-07-15T13:05:00",
       "type": "Unknown",
       "name": "",
@@ -418,7 +450,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-07-15T12:34:23",
       "type": "Unknown",
       "name": "",
@@ -450,7 +482,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-07-15T12:11:05",
       "type": "Unknown",
       "name": "",
@@ -482,7 +514,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-07-15T08:29:23",
       "type": "Unknown",
       "name": "",
@@ -514,7 +546,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-07-14T11:25:07",
       "type": "VirtualRide",
       "name": "MyWhoosh - Active Recovery",
@@ -565,7 +597,7 @@
       }
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-07-14T11:00:01",
       "type": "VirtualRide",
       "name": "MyWhoosh Crit Racing",
@@ -616,7 +648,7 @@
       }
     },
     {
-      "id": "activity_11",
+      "id": "activity_12",
       "date": "2026-07-14T10:51:49",
       "type": "VirtualRide",
       "name": "Amazonia",
@@ -667,7 +699,7 @@
       }
     },
     {
-      "id": "activity_12",
+      "id": "activity_13",
       "date": "2026-07-13T10:49:58",
       "type": "Unknown",
       "name": "",
@@ -810,7 +842,7 @@
   "weekly_summary": {
     "total_training_hours": 1.32,
     "total_tss": 83,
-    "activities_count": 12,
+    "activities_count": 13,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
