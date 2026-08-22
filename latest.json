@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 3.71,
-      "total_activities": 12,
+      "total_activities": 13,
       "total_tss": 129
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-22T14:20:40.746478",
+    "last_updated": "2026-08-22T14:48:05.502616",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -39,11 +39,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 3.71,
-    "total_activities": 12,
+    "total_activities": 13,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 4,
+        "count": 5,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -57,10 +57,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 45.98,
-      "atl": 35.88,
-      "tsb": 10.1,
-      "ramp_rate": -2.34,
+      "ctl": 46.14,
+      "atl": 36.81,
+      "tsb": 9.33,
+      "ramp_rate": -2.18,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -189,9 +189,10 @@
       "matched_days": 0,
       "note": "No planned workouts in period"
     },
-    "phase_detected": "Recovery",
+    "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 10.1 > +10"
+      "TSB 9.33 positive",
+      "CTL stable/declining"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -214,12 +215,12 @@
     "p_max": 1069,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-22T14:20:40.745759",
+    "calculation_timestamp": "2026-08-22T14:48:05.501874",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 12,
-      "activities_28d": 37,
+      "activities_7d": 13,
+      "activities_28d": 38,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -230,7 +231,7 @@
   "recent_activities": [
     {
       "id": "activity_1",
-      "date": "2026-08-22T11:37:11",
+      "date": "2026-08-22T12:13:09",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
@@ -262,6 +263,38 @@
     },
     {
       "id": "activity_2",
+      "date": "2026-08-22T11:37:11",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_3",
       "date": "2026-08-21T20:23:24",
       "type": "VirtualRide",
       "name": "MyWhoosh - 90 Minute Endurance",
@@ -303,7 +336,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-08-21T19:52:12",
       "type": "VirtualRide",
       "name": "MyWhoosh - Jabel Hafeet",
@@ -345,7 +378,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-08-21T11:36:45",
       "type": "Unknown",
       "name": "",
@@ -377,7 +410,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-08-20T11:30:29",
       "type": "Unknown",
       "name": "",
@@ -409,7 +442,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-08-19T17:47:46",
       "type": "Unknown",
       "name": "",
@@ -441,7 +474,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-08-18T15:27:23",
       "type": "VirtualRide",
       "name": "MyWhoosh - Depleting Session #1",
@@ -483,7 +516,7 @@
       }
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-08-18T10:56:23",
       "type": "VirtualRide",
       "name": "MyWhoosh - custom zone 2",
@@ -525,7 +558,7 @@
       }
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-08-18T10:47:28",
       "type": "VirtualRide",
       "name": "Morning Virtual Ride",
@@ -567,7 +600,7 @@
       }
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-08-17T14:36:00",
       "type": "VirtualRide",
       "name": "MyWhoosh - Endurance #7",
@@ -609,7 +642,7 @@
       }
     },
     {
-      "id": "activity_11",
+      "id": "activity_12",
       "date": "2026-08-17T09:59:52",
       "type": "VirtualRide",
       "name": "MyWhoosh - 8min 30/30's",
@@ -651,7 +684,7 @@
       }
     },
     {
-      "id": "activity_12",
+      "id": "activity_13",
       "date": "2026-08-16T19:41:38",
       "type": "VirtualRide",
       "name": "MyWhoosh - Base Miles #2",
@@ -804,7 +837,7 @@
   "weekly_summary": {
     "total_training_hours": 3.71,
     "total_tss": 129,
-    "activities_count": 12,
+    "activities_count": 13,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
