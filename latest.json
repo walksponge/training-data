@@ -12,22 +12,12 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-31T20:18:39.846756",
+    "last_updated": "2026-09-01T00:00:01.778992",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
   },
-  "alerts": [
-    {
-      "metric": "acwr",
-      "value": 1.3,
-      "severity": "warning",
-      "threshold": "0.8 / 1.3",
-      "context": "ACWR 1.3 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
-      "persistence_days": null,
-      "tier": 2
-    }
-  ],
+  "alerts": [],
   "history": {
     "available": true,
     "last_generated": "2026-07-27",
@@ -57,10 +47,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 49.25,
-      "atl": 59.68,
-      "tsb": -10.43,
-      "ramp_rate": 2.58,
+      "ctl": 48.09,
+      "atl": 51.74,
+      "tsb": -3.65,
+      "ramp_rate": 0.59,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -90,19 +80,19 @@
     "rhr_baseline_28d": null,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.3,
+    "acwr": 1.09,
     "acwr_interpretation": "optimal",
-    "monotony": 0.77,
+    "monotony": 0.62,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.77,
-    "primary_sport_tss_7d": 136.0,
-    "effective_monotony": 0.77,
+    "primary_sport_monotony": 0.62,
+    "primary_sport_tss_7d": 114.0,
+    "effective_monotony": 0.62,
     "multi_sport_detected": false,
-    "strain": 105.0,
-    "stress_tolerance": 1.4,
+    "strain": 71.0,
+    "stress_tolerance": 1.1,
     "load_recovery_ratio": null,
-    "tss_7d_total": 136.0,
+    "tss_7d_total": 114.0,
     "tss_28d_total": 418.0,
     "zone_distribution_7d": {
       "z1_hours": 2.64,
@@ -193,7 +183,7 @@
     "phase_triggers": [
       "Insufficient data for phase detection"
     ],
-    "seasonal_context": "Peak Race Season",
+    "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
       "current_ftp": null,
       "ftp_8_weeks_ago": null,
@@ -214,7 +204,7 @@
     "p_max": 1067,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-31T20:18:39.845965",
+    "calculation_timestamp": "2026-09-01T00:00:01.778215",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
