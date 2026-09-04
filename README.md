@@ -4,7 +4,7 @@
 
 ![Sync Status](https://github.com/walksponge/training-data/actions/workflows/auto-sync.yml/badge.svg)
 
-**Last successful sync:** 2026-09-03 23:25:39 UTC
+**Last successful sync:** 2026-09-04 01:10:49 UTC
 
 Automated training data pipeline from [Intervals.icu](https://intervals.icu) for AI coaching analysis.
 Built on the [Section 11 Protocol](https://github.com/CrankAddict/section-11).
