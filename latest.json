@@ -6,13 +6,13 @@
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
       "total_training_hours": 1.66,
-      "total_activities": 14,
+      "total_activities": 15,
       "total_tss": 55
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-12T06:23:27.529817",
+    "last_updated": "2026-09-12T11:06:07.185374",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -48,11 +48,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 1.66,
-    "total_activities": 14,
+    "total_activities": 15,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 10,
+        "count": 11,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -66,10 +66,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 46.21,
-      "atl": 41.94,
-      "tsb": 4.27,
-      "ramp_rate": -1.1,
+      "ctl": 46.26,
+      "atl": 42.2,
+      "tsb": 4.06,
+      "ramp_rate": -1.05,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -200,7 +200,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 4.27 positive",
+      "TSB 4.06 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Late Season / Transition",
@@ -224,12 +224,12 @@
     "p_max": 1057,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-12T06:23:27.529066",
+    "calculation_timestamp": "2026-09-12T11:06:07.184609",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 14,
-      "activities_28d": 65,
+      "activities_7d": 15,
+      "activities_28d": 66,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -240,6 +240,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-09-12T12:39:12",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-09-11T20:24:16",
       "type": "VirtualRide",
       "name": "MyWhoosh - short intervals 20reps",
@@ -290,7 +322,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-09-11T12:14:23",
       "type": "Unknown",
       "name": "",
@@ -322,7 +354,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-09-10T13:15:35",
       "type": "VirtualRide",
       "name": "MyWhoosh - 12min Over Under short",
@@ -373,7 +405,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-09-10T13:01:22",
       "type": "VirtualRide",
       "name": "Lunch Virtual Ride",
@@ -424,7 +456,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-09-09T17:10:15",
       "type": "Unknown",
       "name": "",
@@ -456,7 +488,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-09-09T12:04:12",
       "type": "Unknown",
       "name": "",
@@ -488,7 +520,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-09-09T08:49:45",
       "type": "Unknown",
       "name": "",
@@ -520,7 +552,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-09-08T17:52:13",
       "type": "Unknown",
       "name": "",
@@ -552,7 +584,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-09-08T12:15:31",
       "type": "Unknown",
       "name": "",
@@ -584,7 +616,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-09-08T09:23:53",
       "type": "Unknown",
       "name": "",
@@ -616,7 +648,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_11",
+      "id": "activity_12",
       "date": "2026-09-07T19:55:16",
       "type": "VirtualRide",
       "name": "MyWhoosh - Base Miles #3",
@@ -667,7 +699,7 @@
       }
     },
     {
-      "id": "activity_12",
+      "id": "activity_13",
       "date": "2026-09-06T17:26:34",
       "type": "Unknown",
       "name": "",
@@ -699,7 +731,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_13",
+      "id": "activity_14",
       "date": "2026-09-06T08:30:12",
       "type": "Unknown",
       "name": "",
@@ -731,7 +763,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_14",
+      "id": "activity_15",
       "date": "2026-09-06T07:51:45",
       "type": "Unknown",
       "name": "",
@@ -874,7 +906,7 @@
   "weekly_summary": {
     "total_training_hours": 1.66,
     "total_tss": 55,
-    "activities_count": 14,
+    "activities_count": 15,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
