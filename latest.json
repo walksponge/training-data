@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-07T23:29:37.437086",
+    "last_updated": "2026-11-08T02:39:24.304344",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -31,7 +31,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-10-05",
-    "age_days": 33,
+    "age_days": 34,
     "total_months": 26,
     "history_confidence": "high"
   },
@@ -51,21 +51,21 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 47.85,
-      "atl": 35.86,
-      "tsb": 11.99,
-      "ramp_rate": -3.54,
+      "ctl": 46.72,
+      "atl": 31.09,
+      "tsb": 15.63,
+      "ramp_rate": -3.46,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 290,
       "ftp_indoor": null,
-      "eftp": 274.2,
+      "eftp": 273.9,
       "lthr": 168,
       "max_hr": 185,
-      "w_prime": 23146,
+      "w_prime": 23123,
       "w_prime_kj": 23.1,
-      "p_max": 1031,
+      "p_max": 1030,
       "vo2max": null
     },
     "current_metrics": {
@@ -165,7 +165,7 @@
     },
     "phase_detected": "Recovery",
     "phase_triggers": [
-      "TSB 11.99 > +10"
+      "TSB 15.63 > +10"
     ],
     "seasonal_context": "Off-season / Transition",
     "benchmark_indoor": {
@@ -182,18 +182,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 274.2,
-    "w_prime": 23146,
+    "eftp": 273.9,
+    "w_prime": 23123,
     "w_prime_kj": 23.1,
-    "p_max": 1031,
+    "p_max": 1030,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-07T23:29:37.436452",
+    "calculation_timestamp": "2026-11-08T02:39:24.303468",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 6,
-      "activities_28d": 43,
+      "activities_28d": 39,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -397,21 +397,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-11-01",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-11-02",
       "weight_kg": null,
       "resting_hr": null,
@@ -488,6 +473,21 @@
     },
     {
       "date": "2026-11-07",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-11-08",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
